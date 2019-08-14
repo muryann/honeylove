@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #0e0e0e;
+  --overlay-black: #040404;
+  --pink: #c49ba6;
+  --white: #ffffff;
+  --gray: #eeeeee;
+
+  --max-width: 1300px;
+
+}
+
+.background--black {
+  background:  var(--black);
+}
+
+.container--full-width {
+  width: 100%;
+}
+
+.container--center {
+  padding: 5px 0;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.free-shipping-bar {
+  text-align: center;
+  color: var(--white);
+  font-family: 'Open Sans' , sans-serif;
+  font-size: 16px;
+}
