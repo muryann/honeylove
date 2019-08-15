@@ -148,7 +148,7 @@ body {
 
 .background--turnstyle {
   background-image: url("images/turnstyle.png");
-  display: inline-block;
+  display: flex;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 700px 0px ;
 }
