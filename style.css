@@ -1,5 +1,6 @@
 
 body {
+  background: var(--white);
   margin: 0;
   padding: 0;
 }
@@ -11,7 +12,7 @@ body {
   --white: #ffffff;
   --gray: #eeeeee;
 
-  --max-width: 1300px;
+  --max-width: 1366px;
 
 }
 
@@ -151,4 +152,23 @@ body {
   display: flex;
   background-repeat: no-repeat;
   background-position: 700px 0px ;
+}
+
+.box--model-help {
+  width: 95%
+  margin: 200px auto;
+}
+
+.box--model {
+  float:left;
+}
+
+.box--help {
+  background: var(--black);
+  float: right;
+}
+
+.box--white {
+  color: white;
+  font-family: 'Lora' , serif;
 }
