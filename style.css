@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.
 
 body {
   margin: 0;
@@ -20,6 +19,14 @@ body {
   background:  var(--black);
 }
 
+.background--white {
+  background: var(--white);
+}
+
+.background--pink {
+  background: var(--pink)
+}
+
 .container--full-width {
   width: 100%;
 }
@@ -28,11 +35,76 @@ body {
   padding: 5px 0;
   margin: 0 auto;
   max-width: var(--max-width);
+  clear: both;
 }
 
 .free-shipping-bar {
   text-align: center;
   color: var(--white);
   font-family: 'Open Sans' , sans-serif;
+  font-size: 16px;
+}
+
+.background--headermodel {
+  background-image: url("images/modelheader.jpg");
+  padding-bottom: 300px;
+  margin: 0;
+}
+
+.container--center .header--logo-icons {
+  float: right;
+  padding: 25px 0;
+}
+
+.header--logo-icons {
+  width: 64%;
+  position: relative;
+}
+
+.header--logo {
+  float: left;
+}
+
+.header--icons {
+ float: right;
+}
+
+.header--links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  width 400px;
+  text-align: center;
+  font-family: 'Lora' , serif;
+  text-decoration: none;
+}
+
+.header--link {
+  list-style-type: none;
+  display: inline;
+}
+
+.header--link a {
+  text-deocration: none;
+  color: var(--black)
+}
+
+.header--description-button {
+  float: right;
+  width: 20%;
+}
+
+.header--description {
+  font-family: 'Lora' , sans-serif;
+}
+
+.header--button {
+  background-color: var(--black);
+  border: none;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
 }
