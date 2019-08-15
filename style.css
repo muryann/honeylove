@@ -24,7 +24,8 @@ body {
 }
 
 .background--pink {
-  background: var(--pink)
+  background: var(--pink);
+  display: inline-block;
 }
 
 .container--full-width {
@@ -46,15 +47,16 @@ body {
 }
 
 .background--headermodel {
-  background-image: url("images/modelheader.jpg");
+  background-image: url("images/modelheader.png");
   padding-bottom: 300px;
   margin: 0;
   display: inline-block;
+  background-size: cover;
 }
 
 .container--center .header--logo-icons {
   float: right;
-  padding: 25px 0;
+  margin: 25px 0;
 }
 
 .header--logo-icons {
@@ -82,6 +84,8 @@ body {
 .header--link {
   list-style-type: none;
   display: inline;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .header--link a {
@@ -117,8 +121,9 @@ body {
 /*superpower fits here*/
 
 .turnstyle--description-button {
+  float: left;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 90px;
   padding-left: 200px;
   width: 27%
 }
@@ -139,4 +144,11 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.background--turnstyle {
+  background-image: url("images/turnstyle.png");
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
