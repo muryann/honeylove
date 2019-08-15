@@ -49,6 +49,7 @@ body {
   background-image: url("images/modelheader.jpg");
   padding-bottom: 300px;
   margin: 0;
+  display: inline-block;
 }
 
 .container--center .header--logo-icons {
@@ -73,10 +74,9 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
-  width 400px;
   text-align: center;
   font-family: 'Lora' , serif;
-  text-decoration: none;
+  font-size: 20px;
 }
 
 .header--link {
@@ -85,24 +85,56 @@ body {
 }
 
 .header--link a {
-  text-deocration: none;
+  text-decoration: none;
   color: var(--black)
 }
 
 .header--description-button {
   float: right;
-  width: 20%;
+  width: 25%;
+  padding-right: 90px;
+  padding-top: 120px;
 }
 
 .header--description {
   font-family: 'Lora' , sans-serif;
+  font-size: 46px;
+  line-height: 65px;
+  padding-bottom: 15px;
 }
 
 .header--button {
   background-color: var(--black);
   border: none;
   color: white;
-  padding: 15px 70px;
+  padding: 15px 110px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*superpower fits here*/
+
+.turnstyle--description-button {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  width: 27%
+}
+
+.turnstyle--description {
+  font-family: 'Lora' , sans-serif;
+  font-size: 46px;
+  color: var(--white);
+  line-height: 65px;
+}
+
+.turnstyle--button {
+  background-color: var(--black);
+  border: none;
+  color: white;
+  padding: 15px 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
