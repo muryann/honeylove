@@ -29,9 +29,6 @@ body {
   display: inline-block;
 }
 
-.background--overlay-black {
-  background: var(--overlay-black);
-}
 
 .container--full-width {
   width: 100%;
@@ -177,8 +174,9 @@ body {
 .helpbox--words-button {
   width: 60%;
   padding-left: 30px;
-  padding-top: 98px;
-  padding-bottom: 98px;
+  padding-top: 80px;
+  padding-bottom: 115px;
+  margin: 0 auto;
 
 }
 
@@ -295,7 +293,7 @@ p.betsie {
   margin-right: 20px;
 }
 
-.footer {
-  font-family: 'Open Sans' , serif;
-  
+.background--overlay-black {
+  width: 70%;
+  color: var(--overlay-black);
 }
