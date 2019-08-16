@@ -234,6 +234,7 @@ hr {
 .betsie--description {
   padding-top: 80px;
   padding-left: 75px;
+  position: relative;
 }
 
 .betsie--design {
@@ -243,11 +244,9 @@ hr {
   line-height: 70px;
 }
 
-.betsie--about {
-  width: 40%
-}
 
 p.about {
+  width: 40%;
   font-family: 'Lora' , serif;
   line-height: 20px;
   font-size:
@@ -255,11 +254,10 @@ p.about {
 
 p.betsie {
   font-family: 'Open Sans' , serif;
+  padding-bottom: 80px;
 }
 
-.background--betsie {
-  background-image: url(images/betsie.png);
-  width: 30%;
-  float: right;
-  padding-right: 75px;
+img.betsie {
+  position: absolute;
+  right: -300px;
 }
