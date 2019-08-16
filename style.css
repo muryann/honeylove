@@ -154,9 +154,9 @@ body {
   background-position: 700px 0px ;
 }
 
-.box--model-help {
-  width: 95%;
-  margin: 200px auto;
+.container--center .box--model-help {
+  width: 90%;
+  margin: 150px auto;
 }
 
 .box--model {
@@ -168,7 +168,59 @@ body {
   float: right;
 }
 
+.helpbox--words-button {
+  width: 60%;
+  padding-left: 30px;
+  padding-top: 98px;
+  padding-bottom: 98px;
+
+}
+
 .box--white {
   color: white;
   font-family: 'Lora' , serif;
+  font-size: 40px;
+  padding-bottom: 70px;
+}
+
+.box--pink {
+  color: var(--pink);
+  font-family: 'Lora' , serif;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.box--button {
+  background-color: var(--white);
+  border: none;
+  color: black;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.linebreak--deals {
+  margin: 150px auto;
+  width: 90%;
+}
+
+hr {
+  border: 1px solid var(--pink);
+}
+
+.deals {
+  color: black;
+  font-family: 'Lora' , serif;
+  font-size: 46px;
+  text-align: center;
+}
+
+.and {
+  color: var(--pink);
+  font-family: 'Lora' , serif;
+  font-size: 46px;
+  text-align: center;
 }
