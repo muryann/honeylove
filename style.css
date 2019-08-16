@@ -224,3 +224,42 @@ hr {
   font-size: 46px;
   text-align: center;
 }
+
+.background--gray {
+  background-color: var(--gray);
+  width: 75%;
+  float: left;
+}
+
+.betsie--description {
+  padding-top: 80px;
+  padding-left: 75px;
+}
+
+.betsie--design {
+  font-family: 'Lora' , serif;
+  font-size: 46px;
+  width: 60%;
+  line-height: 70px;
+}
+
+.betsie--about {
+  width: 40%
+}
+
+p.about {
+  font-family: 'Lora' , serif;
+  line-height: 20px;
+  font-size:
+}
+
+p.betsie {
+  font-family: 'Open Sans' , serif;
+}
+
+.background--betsie {
+  background-image: url(images/betsie.png);
+  width: 30%;
+  float: right;
+  padding-right: 75px;
+}
