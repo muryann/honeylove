@@ -306,12 +306,15 @@ p.betsie {
 
 .newsletter--subscribe {
   font-size: 12px;
+  margin: auto 10px;
 }
 
 .subscribe--input {
   margin-top: 4px;
   margin-right: 8px;
-  padding: 5px 200px;
+  margin-bottom: 50px;
+  width: 80%;
+  padding: 5px;
   color: gray;
   text-align: left;
   font-size:12px;
@@ -326,4 +329,35 @@ p.betsie {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+}
+
+
+.about--links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  float: left;
+}
+
+.about--link a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: var(--white);
+}
+
+.footer--about-help {
+  padding-right: 250px;
+}
+
+.help--links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  float: right;
+}
+
+.help--link a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: var(--white);
 }
