@@ -121,7 +121,32 @@ body {
   font-size: 16px;
 }
 
-/*superpower fits here*/
+.background--gray {
+  background-color: var(--gray);
+}
+
+.superfits1--pic {
+  background-color: var(--gray);
+  width: 35%;
+  float: left;
+  padding-right: 40px;
+  position: relative;
+}
+
+.superfits1 {
+  font-family: 'Lora' , serif;
+  font-weight: lighter;
+  font-size: 46px;
+}
+
+.superfits1--short {
+  float: right;
+}
+
+.superfits1--description {
+  font-family: 'Open Sans' , sans-serif;
+  width: 72%;
+}
 
 .turnstyle--description-button {
   float: left;
@@ -233,7 +258,7 @@ hr {
   font-weight: lighter;
 }
 
-.background--gray {
+.background--betsie {
   background-color: var(--gray);
   width: 75%;
   float: left;
