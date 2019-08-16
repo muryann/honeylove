@@ -29,6 +29,10 @@ body {
   display: inline-block;
 }
 
+.background--overlay-black {
+  background: var(--overlay-black);
+}
+
 .container--full-width {
   width: 100%;
 }
@@ -78,7 +82,7 @@ body {
   padding: 0;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Lora' , serif;
+  font-family: 'Open Sans' , sans-serif;
   font-size: 20px;
 }
 
@@ -106,6 +110,7 @@ body {
   font-size: 46px;
   line-height: 65px;
   padding-bottom: 15px;
+  font-weight: lighter;
 }
 
 .header--button {
@@ -134,6 +139,7 @@ body {
   font-size: 46px;
   color: var(--white);
   line-height: 65px;
+  font-weight: lighter;
 }
 
 .turnstyle--button {
@@ -181,6 +187,7 @@ body {
   font-family: 'Lora' , serif;
   font-size: 40px;
   padding-bottom: 70px;
+  font-weight: lighter;
 }
 
 .box--pink {
@@ -188,6 +195,7 @@ body {
   font-family: 'Lora' , serif;
   font-size: 40px;
   padding-bottom: 50px;
+  font-weight: lighter;
 }
 
 .box--button {
@@ -216,6 +224,7 @@ hr {
   font-family: 'Lora' , serif;
   font-size: 46px;
   text-align: center;
+  font-weight: lighter;
 }
 
 .and {
@@ -223,6 +232,7 @@ hr {
   font-family: 'Lora' , serif;
   font-size: 46px;
   text-align: center;
+  font-weight: lighter;
 }
 
 .background--gray {
@@ -242,22 +252,50 @@ hr {
   font-size: 46px;
   width: 60%;
   line-height: 70px;
+  font-weight: lighter;
 }
 
 
 p.about {
   width: 40%;
-  font-family: 'Lora' , serif;
-  line-height: 20px;
-  font-size:
+  font-family: 'Open Sans' , sans-serif;
+  line-height: 25px;
 }
 
 p.betsie {
   font-family: 'Open Sans' , serif;
   padding-bottom: 80px;
+  font-weight: 800;
 }
 
-img.betsie {
-  position: absolute;
-  right: -300px;
+.instagram {
+  width: 90%;
+  margin: 200px auto;
+}
+
+.insta--pink {
+  font-family: 'Lora' , serif;
+  font-size: 46px;
+  text-align: center;
+  color: var(--pink);
+  font-weight: lighter;
+}
+
+.insta--links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.insta--link {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer {
+  font-family: 'Open Sans' , serif;
+  
 }
