@@ -37,6 +37,14 @@ body {
   clear: both;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
 .free-shipping-bar {
   text-align: center;
   color: var(--white);
@@ -150,10 +158,8 @@ body {
 }
 
 .superfits2--pic {
-  background-color: var(--gray);
-  width: 35%;
-  float: right;
-  padding-left: 80px;
+  float: left;
+  padding: 80px;
   position: relative;
 }
 
@@ -162,14 +168,15 @@ body {
   font-weight: lighter;
   font-size: 46px;
   text-align: right;
-  float: right;
 }
 
 .superfits2--description {
   font-family: 'Open Sans', sans-serif;
-  width: 70%;
+  width: 60%;
+  margin: 100px auto;
   padding-bottom: 50px;
   text-align: right;
+  float: left;
 }
 
 .turnstyle--description-button {
@@ -310,6 +317,13 @@ p.betsie {
   font-family: 'Open Sans', serif;
   padding-bottom: 80px;
   font-weight: 800;
+}
+
+.betsie--pic {
+  position: absolute;
+  right: -300px;
+  top: 0;
+  padding-top: 50px;
 }
 
 .instagram {
