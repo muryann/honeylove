@@ -1,4 +1,3 @@
-
 body {
   background: var(--white);
   margin: 0;
@@ -11,13 +10,11 @@ body {
   --pink: #c49ba6;
   --white: #ffffff;
   --gray: #eeeeee;
-
   --max-width: 1366px;
-
 }
 
 .background--black {
-  background:  var(--black);
+  background: var(--black);
 }
 
 .background--white {
@@ -28,7 +25,6 @@ body {
   background: var(--pink);
   display: inline-block;
 }
-
 
 .container--full-width {
   width: 100%;
@@ -44,7 +40,7 @@ body {
 .free-shipping-bar {
   text-align: center;
   color: var(--white);
-  font-family: 'Open Sans' , sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -71,7 +67,7 @@ body {
 }
 
 .header--icons {
- float: right;
+  float: right;
 }
 
 .header--links {
@@ -79,7 +75,7 @@ body {
   padding: 0;
   margin: 0 auto;
   text-align: center;
-  font-family: 'Open Sans' , sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
@@ -103,7 +99,7 @@ body {
 }
 
 .header--description {
-  font-family: 'Lora' , sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 46px;
   line-height: 65px;
   padding-bottom: 15px;
@@ -134,7 +130,7 @@ body {
 }
 
 .superfits1 {
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-weight: lighter;
   font-size: 46px;
 }
@@ -148,11 +144,33 @@ body {
 }
 
 .superfits1--description {
-  font-family: 'Open Sans' , sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 72%;
   padding-bottom: 50px;
 }
 
+.superfits2--pic {
+  background-color: var(--gray);
+  width: 35%;
+  float: right;
+  padding-left: 80px;
+  position: relative;
+}
+
+.superfits2 {
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  font-size: 46px;
+  text-align: right;
+  float: right;
+}
+
+.superfits2--description {
+  font-family: 'Open Sans', sans-serif;
+  width: 70%;
+  padding-bottom: 50px;
+  text-align: right;
+}
 
 .turnstyle--description-button {
   float: left;
@@ -163,7 +181,7 @@ body {
 }
 
 .turnstyle--description {
-  font-family: 'Lora' , sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 46px;
   color: var(--white);
   line-height: 65px;
@@ -185,7 +203,7 @@ body {
   background-image: url("images/turnstyle.png");
   display: flex;
   background-repeat: no-repeat;
-  background-position: 700px 0px ;
+  background-position: 700px 0px;
 }
 
 .container--center .box--model-help {
@@ -194,7 +212,7 @@ body {
 }
 
 .box--model {
-  float:left;
+  float: left;
 }
 
 .box--help {
@@ -208,12 +226,11 @@ body {
   padding-top: 80px;
   padding-bottom: 115px;
   margin: 0 auto;
-
 }
 
 .box--white {
   color: white;
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 40px;
   padding-bottom: 70px;
   font-weight: lighter;
@@ -221,7 +238,7 @@ body {
 
 .box--pink {
   color: var(--pink);
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 40px;
   padding-bottom: 50px;
   font-weight: lighter;
@@ -236,7 +253,6 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
 }
 
 .linebreak--deals {
@@ -250,7 +266,7 @@ hr {
 
 .deals {
   color: black;
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 46px;
   text-align: center;
   font-weight: lighter;
@@ -258,7 +274,7 @@ hr {
 
 .and {
   color: var(--pink);
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 46px;
   text-align: center;
   font-weight: lighter;
@@ -277,22 +293,21 @@ hr {
 }
 
 .betsie--design {
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 46px;
   width: 60%;
   line-height: 70px;
   font-weight: lighter;
 }
 
-
 p.about {
   width: 40%;
-  font-family: 'Open Sans' , sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 25px;
 }
 
 p.betsie {
-  font-family: 'Open Sans' , serif;
+  font-family: 'Open Sans', serif;
   padding-bottom: 80px;
   font-weight: 800;
 }
@@ -303,7 +318,7 @@ p.betsie {
 }
 
 .insta--pink {
-  font-family: 'Lora' , serif;
+  font-family: 'Lora', serif;
   font-size: 46px;
   text-align: center;
   color: var(--pink);
@@ -330,9 +345,8 @@ p.betsie {
 }
 
 .footer {
-  font-family: 'Open Sans' , sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--white);
-
 }
 
 .newsletter--subscribe {
@@ -348,20 +362,19 @@ p.betsie {
   padding: 5px;
   color: gray;
   text-align: left;
-  font-size:12px;
+  font-size: 12px;
 }
 
 .subscribe--button {
-    background-color: var(--pink);
-    border: none;
-    color: var(--white);
-    padding: 7px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
+  background-color: var(--pink);
+  border: none;
+  color: var(--white);
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
-
 
 .about--links {
   list-style-type: none;
