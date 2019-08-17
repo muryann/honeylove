@@ -37,6 +37,14 @@ body {
   clear: both;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
 .free-shipping-bar {
   text-align: center;
   color: var(--white);
@@ -309,6 +317,13 @@ p.betsie {
   font-family: 'Open Sans', serif;
   padding-bottom: 80px;
   font-weight: 800;
+}
+
+.betsie--pic {
+  position: absolute;
+  right: -300px;
+  top: 0;
+  padding-top: 50px;
 }
 
 .instagram {
