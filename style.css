@@ -129,7 +129,7 @@ body {
   background-color: var(--gray);
   width: 35%;
   float: left;
-  padding-right: 40px;
+  padding-right: 80px;
   position: relative;
 }
 
@@ -139,6 +139,10 @@ body {
   font-size: 46px;
 }
 
+.superfits--words {
+  padding-bottom: 80px;
+}
+
 .superfits1--short {
   float: right;
 }
@@ -146,7 +150,9 @@ body {
 .superfits1--description {
   font-family: 'Open Sans' , sans-serif;
   width: 72%;
+  padding-bottom: 50px;
 }
+
 
 .turnstyle--description-button {
   float: left;
