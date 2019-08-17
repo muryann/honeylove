@@ -150,10 +150,8 @@ body {
 }
 
 .superfits2--pic {
-  background-color: var(--gray);
-  width: 35%;
-  float: right;
-  padding-left: 80px;
+  float: left;
+  padding: 80px;
   position: relative;
 }
 
@@ -162,14 +160,15 @@ body {
   font-weight: lighter;
   font-size: 46px;
   text-align: right;
-  float: right;
 }
 
 .superfits2--description {
   font-family: 'Open Sans', sans-serif;
-  width: 70%;
+  width: 60%;
+  margin: 100px auto;
   padding-bottom: 50px;
   text-align: right;
+  float: left;
 }
 
 .turnstyle--description-button {
