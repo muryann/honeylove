@@ -215,6 +215,11 @@ body {
   font-size: 16px;
 }
 
+.turnstyle--button:hover {
+  color: var(--pink);
+  background-color: var(--white)
+}
+
 .turnstyle--description .background--turnstyle {
   background-image: url("images/turnstyle.png");
   display: flex;
@@ -269,6 +274,11 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.box--button:hover {
+  background-color: var(--pink);
+  color: var(--white);
 }
 
 .linebreak--deals {
@@ -337,7 +347,8 @@ p.betsie {
 
 .instagram {
   width: 90%;
-  margin: 200px auto;
+  margin: 50px auto;
+  padding-top: 50px;
 }
 
 .insta--pink {
@@ -360,6 +371,20 @@ p.betsie {
   display: inline;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.insta--dot {
+  width: 8%;
+  margin-bottom: 100px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: var(--pink);
+  border-radius: 50%;
+  margin: auto 5px;
+  display: inline-block;
 }
 
 .background--overlay-black {
@@ -399,6 +424,10 @@ p.betsie {
   font-size: 12px;
 }
 
+.subscribe--button:hover {
+  color: var(--black);
+}
+
 .about--links {
   list-style-type: none;
   padding: 0;
@@ -410,6 +439,10 @@ p.betsie {
   text-decoration: none;
   font-weight: lighter;
   color: var(--white);
+}
+
+.about--link a:hover {
+  color: var(--pink);
 }
 
 .footer--about-help {
@@ -427,4 +460,8 @@ p.betsie {
   text-decoration: none;
   font-weight: lighter;
   color: var(--white);
+}
+
+.help--link a:hover {
+  color: var(--pink);
 }
