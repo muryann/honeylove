@@ -99,6 +99,10 @@ body {
   color: var(--black)
 }
 
+.header--link a:hover {
+  color: var(--pink);
+}
+
 .header--description-button {
   float: right;
   width: 25%;
@@ -125,8 +129,14 @@ body {
   font-size: 16px;
 }
 
+.header--button:hover {
+  background-color: var(--pink);
+}
+
 .background--gray {
   background-color: var(--gray);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .superfits1--pic {
@@ -143,10 +153,6 @@ body {
   font-size: 46px;
 }
 
-.superfits--words {
-  padding-bottom: 80px;
-}
-
 .superfits1--short {
   float: right;
 }
@@ -154,7 +160,6 @@ body {
 .superfits1--description {
   font-family: 'Open Sans', sans-serif;
   width: 72%;
-  padding-bottom: 50px;
 }
 
 .superfits2--pic {
@@ -174,9 +179,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   width: 60%;
   margin: 100px auto;
-  padding-bottom: 50px;
   text-align: right;
   float: left;
+}
+
+.superfits2--words {
+  width: 65%;
+  float: right;
 }
 
 .turnstyle--description-button {
@@ -206,7 +215,7 @@ body {
   font-size: 16px;
 }
 
-.background--turnstyle {
+.turnstyle--description .background--turnstyle {
   background-image: url("images/turnstyle.png");
   display: flex;
   background-repeat: no-repeat;
